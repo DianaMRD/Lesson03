@@ -1,11 +1,72 @@
+img {
+    width: 300px;
+}
+html{ 
+    box-sizing: border-box;
+}
 body {
     background-color: black;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: white;
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
 }
 header {
     background-color: white;
     color: black;
 }
-
-
+h2{
+    margin: 0;
+    font-size: 30px;
+}
+.content {
+    width: 900px;
+    margin: 0 auto;
+    padding: 60px 0;
+}
+h1{
+    color: pink;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 30px;
+    margin: 0;
+}
+a{
+    color: black;
+}
+a:hover {
+text-decoration: none;
+}
+.project{
+    background-color: pink;
+}
+.Work{
+    background-color: palevioletred;
+}
+.education{
+    background-color: pink;
+}
+footer{
+    background-color:palevioletred ;
+}
+footer a{
+    color: white;
+    background-color:black;
+    text-decoration: none;
+    padding: 1px;
+    border-radius: 4px;
+    margin: 10px;
+}
+footer a:hover{
+    background-color: rgb(158, 12, 90, 80);
+}
+.item {
+    overflow: hidden;
+}
+.item img{
+float: left;
+margin-right: 20px;
+}
+.item h3{
+    margin-top: 0;
+}
