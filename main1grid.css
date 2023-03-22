@@ -12,42 +12,19 @@ body {
     padding: 0;
     line-height: 1.5;
 }
-header {
-    background-color: white;
-    color: black;
-}
 h2{
     margin: 0;
     font-size: 30px;
 }
-.content {
-    width: 900px;
-    margin: 0 auto;
-    padding: 60px 0;
-}
+
 h1{
     color: pink;
     font-family: 'Press Start 2P', cursive;
     font-size: 30px;
     margin: 0;
 }
-a{
-    color: black;
-}
-a:hover {
-text-decoration: none;
-}
-.project{
-    background-color: pink;
-}
-.Work{
-    background-color: palevioletred;
-}
-.education{
-    background-color: pink;
-}
 footer{
-    background-color:palevioletred ;
+    margin: 0%;
 }
 footer a{
     color: white;
@@ -60,13 +37,43 @@ footer a{
 footer a:hover{
     background-color: rgb(158, 12, 90, 80);
 }
-.item {
-    overflow: hidden;
-}
-.item img{
-float: left;
-margin-right: 20px;
-}
+
 .item h3{
     margin-top: 0;
+}
+.divider > section{
+    border-bottom: 1px dashed #343434;
+    padding: 25px 0;
+}
+
+/*responsive*/
+@media screen and (min-width: 450px) {
+    .two-column {
+        column-count: 2;
+        column-gap: 2.4em;
+    }
+}
+.masthead {
+    background-color: pink;
+    padding: 5%;
+}
+
+.page-title {
+    background-color: black;
+    padding: 5%;
+}
+
+.main-content {
+    background-color: palevioletred;
+    padding: 5%;
+}
+
+.sidebar {
+    background-color: plum;
+    padding: 5%;
+}
+
+.footer-content {
+    background-color: rgb(163, 110, 140);
+    padding: 5%;
 }
